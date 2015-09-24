@@ -1,0 +1,5 @@
+require 'sinatra'
+require 'shotgun'
+require 'sqlite3'
+require 'data_mapper'
+require 'dm-sqlite-adapter'
