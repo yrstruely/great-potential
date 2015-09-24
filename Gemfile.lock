@@ -53,13 +53,37 @@ GEM
       dm-core (~> 1.2.0)
     do_sqlite3 (0.10.16)
       data_objects (= 0.10.16)
+    excon (0.45.4)
     fastercsv (1.5.5)
+    heroku (3.42.3)
+      heroku-api (= 0.3.23)
+      launchy (= 2.4.3)
+      multi_json (= 1.11.2)
+      net-ssh-gateway (= 1.2.0)
+      netrc (= 0.10.3)
+      rest-client (= 1.6.8)
+      rubyzip (= 1.1.7)
+    heroku-api (0.3.23)
+      excon (~> 0.44)
+      multi_json (~> 1.8)
     json (1.8.3)
     json_pure (1.8.2)
+    launchy (2.4.3)
+      addressable (~> 2.3)
+    mime-types (1.25.1)
     multi_json (1.11.2)
+    net-ssh (2.9.2)
+    net-ssh-gateway (1.2.0)
+      net-ssh (>= 2.6.5)
+    netrc (0.10.3)
     rack (1.6.4)
     rack-protection (1.5.3)
       rack
+    rdoc (4.2.0)
+    rest-client (1.6.8)
+      mime-types (~> 1.16)
+      rdoc (>= 2.4.2)
+    rubyzip (1.1.7)
     shotgun (0.9.1)
       rack (>= 1.0)
     sinatra (1.4.6)
@@ -77,6 +101,7 @@ PLATFORMS
 DEPENDENCIES
   data_mapper
   dm-sqlite-adapter
+  heroku
   shotgun
   sinatra
   sqlite3
