@@ -1,5 +1,7 @@
-require 'sinatra'
-require 'shotgun'
-require 'sqlite3'
-require 'data_mapper'
-require 'dm-sqlite-adapter'
+source "https://rubygems.org"
+
+gem 'sinatra'
+gem 'shotgun'
+gem 'sqlite3'
+gem 'data_mapper'
+gem 'dm-sqlite-adapter'
